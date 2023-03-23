@@ -1,0 +1,15 @@
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.exe
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.deps.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.runtimeconfig.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\bin\Debug\net6.0\HelloCSharp.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.csproj.AssemblyReference.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.AssemblyInfoInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.AssemblyInfo.cs
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\refint\HelloCSharp.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\HelloCSharp.genruntimeconfig.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\HelloCSharp\HelloCSharp\obj\Debug\net6.0\ref\HelloCSharp.dll
