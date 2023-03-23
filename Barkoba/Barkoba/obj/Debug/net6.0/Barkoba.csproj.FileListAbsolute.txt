@@ -1,0 +1,15 @@
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\bin\Debug\net6.0\Barkoba.exe
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\bin\Debug\net6.0\Barkoba.deps.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\bin\Debug\net6.0\Barkoba.runtimeconfig.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\bin\Debug\net6.0\Barkoba.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\bin\Debug\net6.0\Barkoba.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.csproj.AssemblyReference.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.AssemblyInfoInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.AssemblyInfo.cs
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.csproj.CoreCompileInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\refint\Barkoba.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\Barkoba.genruntimeconfig.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Barkoba\Barkoba\obj\Debug\net6.0\ref\Barkoba.dll
