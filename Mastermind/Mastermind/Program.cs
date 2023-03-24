@@ -64,6 +64,7 @@ namespace Mastermind
             while (tipp != titkosSzam);
 
             Console.WriteLine("Gratulálok nyertél!");
+            Console.ReadLine();
         }
     }
 }
