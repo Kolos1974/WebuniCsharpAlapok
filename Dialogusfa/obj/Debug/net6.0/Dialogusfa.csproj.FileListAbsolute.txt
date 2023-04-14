@@ -1,0 +1,15 @@
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\bin\Debug\net6.0\Dialogusfa.exe
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\bin\Debug\net6.0\Dialogusfa.deps.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\bin\Debug\net6.0\Dialogusfa.runtimeconfig.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\bin\Debug\net6.0\Dialogusfa.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\bin\Debug\net6.0\Dialogusfa.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.csproj.AssemblyReference.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.AssemblyInfoInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.AssemblyInfo.cs
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.csproj.CoreCompileInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\refint\Dialogusfa.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\Dialogusfa.genruntimeconfig.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Dialogusfa\obj\Debug\net6.0\ref\Dialogusfa.dll
