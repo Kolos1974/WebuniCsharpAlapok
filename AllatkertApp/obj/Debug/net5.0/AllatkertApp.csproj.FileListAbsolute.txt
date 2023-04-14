@@ -1,0 +1,16 @@
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\bin\Debug\net5.0\AllatkertApp.exe
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\bin\Debug\net5.0\AllatkertApp.deps.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\bin\Debug\net5.0\AllatkertApp.runtimeconfig.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\bin\Debug\net5.0\AllatkertApp.runtimeconfig.dev.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\bin\Debug\net5.0\AllatkertApp.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\bin\Debug\net5.0\AllatkertApp.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.csproj.AssemblyReference.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.AssemblyInfoInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.AssemblyInfo.cs
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.csproj.CoreCompileInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\refint\AllatkertApp.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\AllatkertApp.genruntimeconfig.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AllatkertApp\obj\Debug\net5.0\ref\AllatkertApp.dll
