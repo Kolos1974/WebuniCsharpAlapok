@@ -1,0 +1,4 @@
+﻿interface IVegrehajthato
+{
+    void Vegrehajt();
+}

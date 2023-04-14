@@ -49,7 +49,7 @@ namespace Barkoba
                 }
                 */
 
-              
+
                 while (!int.TryParse(Console.ReadLine(), out tipp))
                 {
                     Console.WriteLine("Hibás formátum, add meg újra!");
@@ -63,8 +63,8 @@ namespace Barkoba
                 else if (tipp > titkosSzam)
                 {
                     Console.WriteLine("Kevesebbre gondoltam!");
-                } 
-                
+                }
+
 
             }
             while (tipp != titkosSzam);
