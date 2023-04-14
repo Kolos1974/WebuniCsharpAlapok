@@ -1,0 +1,15 @@
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\bin\Debug\net6.0\AdventureBook.exe
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\bin\Debug\net6.0\AdventureBook.deps.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\bin\Debug\net6.0\AdventureBook.runtimeconfig.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\bin\Debug\net6.0\AdventureBook.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\bin\Debug\net6.0\AdventureBook.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.csproj.AssemblyReference.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.AssemblyInfoInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.AssemblyInfo.cs
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.csproj.CoreCompileInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\refint\AdventureBook.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\AdventureBook.genruntimeconfig.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\AdventureBook\AdventureBook\obj\Debug\net6.0\ref\AdventureBook.dll
