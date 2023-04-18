@@ -16,11 +16,11 @@ namespace AdventureBook
             Answers.Add(new(3, "Kék csík", $"Az utadba kerül egy gödör. Megpróbálod átudrani, vagy kikerülöd?", new List<int> { 6, 7 }, 1));
             Answers.Add(new(4, "Otthagyod a törpét", $"Mivel nem segítettél, ezért megátkoz. Ez az életerődön is megmutatkozik!", new List<int> { 8 }, 2));
             Answers.Add(new(5, "Segítesz a törpének", $"Mivel segítettél a törpének, jutalmul javít az életerődön!", new List<int> { 8 }, 4));
-            Answers.Add(new(6, "Ugrás", $"Mivel rosszul mérted fel a távolságot, beleestél a gödörbe. Az életerőd megcsappant.", new List<int> { 8 },3));
-            Answers.Add(new(7, "Kikerülés", $"Sikeresen kikerülted a gödröt, haladhatsz tovább.", new List<int> { 8 },3 ));
+            Answers.Add(new(6, "Ugrás", $"Mivel rosszul mérted fel a távolságot, beleestél a gödörbe. Az életerőd megcsappant.", new List<int> { 8 }, 3));
+            Answers.Add(new(7, "Kikerülés", $"Sikeresen kikerülted a gödröt, haladhatsz tovább.", new List<int> { 8 }, 3));
             Answers.Add(new(8, "Kérdés", $"Mennyi egy töketlen fecske maximális repülési sebessége?", new List<int> { 9, 10 }, 0));
-            Answers.Add(new(9, "Annyi mint a tökösé", $"Sajons ez rossz válasz, elfogyott az életerőd!", new List<int> {  }, 0));
-            Answers.Add(new(10, "Afrikai vagy erurópai fecske?", "", new List<int> {  }, 0));
+            Answers.Add(new(9, "Annyi mint a tökösé", $"Sajons ez rossz válasz, elfogyott az életerőd!", new List<int> { }, 0));
+            Answers.Add(new(10, "Afrikai vagy erurópai fecske?", "", new List<int> { }, 0));
         }
 
         private List<Answer> Answers { get; }
@@ -31,19 +31,19 @@ namespace AdventureBook
 
             while (true)
             {
-                Console.WriteLine($"{Gamer.Name} | HP: {Gamer.Vitality}");
-                Console.WriteLine(currentAnswer.Label);
 
-                if (currentAnswer.Level>0)
+                if (currentAnswer.Level > 0)
                 {
                     var random = new Random();
-                    if (random.Next(1, 5-currentAnswer.Level)==1)
+                    if (random.Next(1, 5 - currentAnswer.Level) == 1)
                     {
                         Fight();
 
                     }
-                 }
+                }
 
+                Console.WriteLine($"{Gamer.Name} | HP: {Gamer.Vitality}");
+                Console.WriteLine(currentAnswer.Label);
                 Console.WriteLine(currentAnswer.Text);
 
                 if (currentAnswer.Paths.Count > 0 && Gamer.Vitality > 0)
@@ -69,7 +69,7 @@ namespace AdventureBook
                             Gamer.Vitality -= 20;
                             break;
                         case 7:
-                            
+
                             break;
 
                         case 10:
@@ -91,17 +91,29 @@ namespace AdventureBook
         private void Fight()
         {
 
-            var monster = new Monster("Dragon", 60);
+            var monster = new Monster("Dragon", 50);
+            Console.WriteLine("");
             Console.WriteLine($"Az utad során találkoztál a {monster.Name} szörnnyel, akivel meg kell küzdened! Az ő életereje:  {monster.Vitality} ");
-
-
+            Console.WriteLine("Mindketen dobókockával dobtok:");
+            var random = new Random();
+            int selfResult = 0;
+            int monsterResult = 0;
 
             do
             {
-                Console.WriteLine($"A Te életerőd: {Gamer.Vitality}, a szörny életereje:{monster.Vitality}");
-                monster.Vitality -= 20;
+                selfResult = random.Next(1, 7);
+                monsterResult = random.Next(1, 7);
+                if (selfResult > monsterResult)
+                {
+                    monster.Vitality = monster.Vitality - (selfResult - monsterResult);
+                }
+                else
+                {
+                    Gamer.Vitality = Gamer.Vitality - (monsterResult - selfResult);
+                }
 
-            } while (Gamer.Vitality > 0 && monster.Vitality>0); 
+                Console.WriteLine($"A Te dobásod értéke: {selfResult} , a rendelkezésre álló életerőd: {Gamer.Vitality}, a szörny dobása: {monsterResult}, életereje:{monster.Vitality}");
+            } while (Gamer.Vitality > 0 && monster.Vitality > 0);
 
         }
 
