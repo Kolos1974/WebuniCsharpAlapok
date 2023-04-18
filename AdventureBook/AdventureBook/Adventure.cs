@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace AdventureBook
 {
-    class Gamer : Creature
+    abstract class Adventure
     {
-
-        public Gamer(string name, int vitality) : base(name, vitality)
+        public Adventure(Gamer gamer)
         {
+            Gamer = gamer;
         }
 
+        public Gamer Gamer { get; }
+
+        public abstract void Run();
     }
 }

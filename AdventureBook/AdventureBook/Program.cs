@@ -15,10 +15,10 @@ namespace AdventureBook
             }
             Console.WriteLine("\nA kalandod elkezdődik...\n");
 
-            var gamer = new Gamer(name);
-            // var aGoblinNapja = new AGoblinNapja(jatekos);
-            // aGoblinNapja.Futtatas();
-        }
+            var gamer = new Gamer(name, 100);
+            var blackForest = new BlackForest(gamer);
+            blackForest.Run();
+       }
     }
 }
 

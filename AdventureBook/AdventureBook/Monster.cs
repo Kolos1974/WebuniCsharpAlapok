@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace AdventureBook
 {
-    class Gamer : Creature
+    class Monster : Creature
     {
-
-        public Gamer(string name, int vitality) : base(name, vitality)
+        public Monster(string name, int vitality) : base(name, vitality)
         {
         }
-
     }
 }
