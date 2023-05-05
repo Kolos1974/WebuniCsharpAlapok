@@ -1,0 +1,15 @@
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\bin\Debug\net6.0\Live_20230502_2.exe
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\bin\Debug\net6.0\Live_20230502_2.deps.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\bin\Debug\net6.0\Live_20230502_2.runtimeconfig.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\bin\Debug\net6.0\Live_20230502_2.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\bin\Debug\net6.0\Live_20230502_2.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.csproj.AssemblyReference.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.AssemblyInfoInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.AssemblyInfo.cs
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.csproj.CoreCompileInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\refint\Live_20230502_2.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\Live_20230502_2.genruntimeconfig.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230502_2\Live_20230502_2\obj\Debug\net6.0\ref\Live_20230502_2.dll
