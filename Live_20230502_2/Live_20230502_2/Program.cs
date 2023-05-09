@@ -3,7 +3,7 @@
 
     /* Ha B osztály A osztályból származik le, és
      * Mindkét osztálynak van statikus, és dinamikus konstruktora,
-     * ekkor a lefutási sorrend:
+     * ekkor a lefutási sorrend a B osztályból történő példányosításkor:
      * 
      * 1., B osztály statikus konstruktora
      * 2., A osztály statikus konstruktora
