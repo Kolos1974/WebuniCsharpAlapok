@@ -31,6 +31,7 @@ namespace Live_20230502_3
             helyik[0] = 111;
         }
 
+        // "out" kulcsszóval visszaadunk értéket a függvényből a hívónak!
         static void Kiir2(A helyia, out int helyii, string helyis, int[] helyik)
         {
             helyii = 111;
@@ -41,6 +42,7 @@ namespace Live_20230502_3
             helyik[0] = 111;
         }
 
+        // "ref" kulcsszóval az átadott paraméter referenciaként működik.
         static void Kiir3(A helyia, ref int helyii, string helyis, int[] helyik)
         {
             Console.WriteLine($"{helyia.X}, {helyii}, {helyis}, {helyik[0]} ");
