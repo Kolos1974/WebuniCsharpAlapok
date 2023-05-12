@@ -1,0 +1,12 @@
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\bin\Debug\net6.0\MovieCatalog.Data.deps.json
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\bin\Debug\net6.0\MovieCatalog.Data.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\bin\Debug\net6.0\MovieCatalog.Data.pdb
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\MovieCatalog.Data.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\MovieCatalog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\MovieCatalog.Data.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\MovieCatalog.Data.AssemblyInfo.cs
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\MovieCatalog.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\MovieCatalog.Data.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\refint\MovieCatalog.Data.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\MovieCatalog.Data.pdb
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Data\obj\Debug\net6.0\ref\MovieCatalog.Data.dll
