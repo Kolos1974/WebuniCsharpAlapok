@@ -75,8 +75,12 @@ namespace MovieCatalog.ConsoleApp
 
             var movie = Database.Movies.First();
             // return Database.Genres.OrderByDescending(x => x).Take(5).Select(x => ("", 0)).ToList();
+            
+            // From Novák Péter
+            return Database.Genres.Select(x => (x.Value, Database.Movies.Count(m => m.ReleaseDate.HasValue && m.ReleaseDate >= new DateTime(2010, 1, 1) &&
+            m.ReleaseDate <= new DateTime(2015, 12, 31) && m.Genres.ContainsKey(x.Key)))).OrderByDescending(y => y.Item2).Take(5);
 
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
         }
 
         /// <summary>
@@ -85,7 +89,8 @@ namespace MovieCatalog.ConsoleApp
         /// <returns>A 10 legnagyobb költségvetésű film.</returns>
         public IEnumerable<Movie> GetTop10BiggestBudgetMovies()
         {
-            return Database.Movies.OrderByDescending(m => m.Budget).Take(10).ToList();
+            // return Database.Movies.OrderByDescending(m => m.Budget).Take(10).ToList();
+            return Database.Movies.OrderByDescending(m => m.Budget).Take(10);
 
             // throw new NotImplementedException();
         }
@@ -96,8 +101,9 @@ namespace MovieCatalog.ConsoleApp
         /// <returns>Az 5 legtöbb műfajjal rendelkező film kollekciója.</returns>
         public IEnumerable<Movie> GetTop5MoviesWithTheMostNumberOfGenres()
         {
-            return Database.Movies.OrderByDescending(m => m.Genres.Count).Take(5).ToList();
-            
+            // return Database.Movies.OrderByDescending(m => m.Genres.Count).Take(5).ToList();
+            return Database.Movies.OrderByDescending(m => m.Genres.Count).Take(5);
+
             // throw new NotImplementedException();
         }
 
@@ -113,8 +119,10 @@ namespace MovieCatalog.ConsoleApp
 
             //return Database.Movies.Where(m => m.ProductionCountries.Values == country)
 
+            // From Novák Péter
+            return Database.Movies.Where(m => m.ProductionCountries.ContainsKey(country)).OrderByDescending(g => g.Budget).FirstOrDefault();
 
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
         }
 
         /// <summary>
@@ -129,7 +137,13 @@ namespace MovieCatalog.ConsoleApp
             /// return Database.Movies.OrderByDescending(m => m.Revenue - m.Budget).Take(1).Select(m => new Tuple<Movie, long>(m, 10));
             ////return Database.Movies.OrderByDescending(m => m.Revenue - m.Budget).First().Select(m => new Tuple<Movie, long>(m, 10));
 
-            throw new NotImplementedException();
+            // From Novák Péter
+            Movie TempMovie = Database.Movies.Where(m => m.Revenue != null && m.Budget != null).OrderByDescending(m => m.Revenue - m.Budget).First();
+            long TempProfit = (long) TempMovie.Revenue - (long) TempMovie.Budget;
+
+            return (TempMovie, TempProfit);
+                        
+            // throw new NotImplementedException();
         }
 
         /// <summary>
@@ -138,8 +152,14 @@ namespace MovieCatalog.ConsoleApp
         /// <returns>A legnagyobb bukás mértéke USD-ben.</returns>
         public long GetBiggestMovieFlopEver()
         {
-            // 
-            return (long)Database.Movies.OrderByDescending(m => m.Revenue - m.Budget).Take(1).Sum(m => m.Revenue - m.Budget);
+
+            // return (long)Database.Movies.OrderByDescending(m => m.Revenue - m.Budget).Take(1).Sum(m => m.Revenue - m.Budget);
+
+            // From Novák Péter
+            Movie TempMovie = Database.Movies.Where(m => m.Revenue != null && m.Budget != null).OrderBy(m => m.Revenue - m.Budget).First();
+            long TempProfit = (long)TempMovie.Revenue - (long)TempMovie.Budget;
+
+            return (TempProfit);
 
             // throw new NotImplementedException();
         }
@@ -157,6 +177,14 @@ namespace MovieCatalog.ConsoleApp
 
             var list = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 };
             list.Skip(page * pageSize).Take(pageSize);
+
+
+            // From Novák Péter
+            /*
+            return Database.Movies.Where(m => m.Title.RemoveDiacritics().Contains(titleContains, StringComparison.OrdinalIgnoreCase)).
+                OrderByDescending(m => m.Popularity).Skip(page * pageSize).Take(pageSize);
+            */
+            // RemoveDiacritics-hez nuget csomag kell!!
 
             throw new NotImplementedException();
         }

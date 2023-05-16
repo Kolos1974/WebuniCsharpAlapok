@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj": {}
+    "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj": {
+    "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj",
         "projectName": "MovieCatalog.ConsoleApp",
-        "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\obj\\",
+        "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Kolos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kolos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj": {
-                "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj"
+              "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj": {
+                "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj": {
+    "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj",
         "projectName": "MovieCatalog.Data",
-        "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\obj\\",
+        "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\MovieCatalog.Data.csproj",
+        "packagesPath": "C:\\Users\\Kolos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kolos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
