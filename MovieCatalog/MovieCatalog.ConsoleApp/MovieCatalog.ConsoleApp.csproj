@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Viceri.RemoveDiacritics" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MovieCatalog.Data\MovieCatalog.Data.csproj" />
   </ItemGroup>
 

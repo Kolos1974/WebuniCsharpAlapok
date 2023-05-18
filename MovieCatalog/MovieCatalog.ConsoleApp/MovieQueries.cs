@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Viceri.RemoveDiacritics;
 
 namespace MovieCatalog.ConsoleApp
 {
@@ -62,6 +63,9 @@ namespace MovieCatalog.ConsoleApp
             // Ez a megoldás is jó:
             // return Database.Movies.Count(m => m.ReleaseDate.HasValue && m.ReleaseDate.Value.Year == year);
 
+            // Ez is jó megoldás, from "Skatole"
+            // return Database.Movies.Where(m => m.ReleaseDate.HasValue && m.ReleaseDate.Value.Year == year).Select(m => m.Title).Count();
+
             return Database.Movies.Where(m => m.ReleaseDate.HasValue && m.ReleaseDate.Value.Year == year).Count();
         }
 
@@ -79,6 +83,16 @@ namespace MovieCatalog.ConsoleApp
             // From Novák Péter
             return Database.Genres.Select(x => (x.Value, Database.Movies.Count(m => m.ReleaseDate.HasValue && m.ReleaseDate >= new DateTime(2010, 1, 1) &&
             m.ReleaseDate <= new DateTime(2015, 12, 31) && m.Genres.ContainsKey(x.Key)))).OrderByDescending(y => y.Item2).Take(5);
+            
+
+            // From "Skatole"
+            // Ez a lekérdezés más adatokat hozott le! Ez nem szűri az időszakot!!
+            /*
+            return Database.Genres
+                .OrderByDescending(x => x.Value)
+                .Take(5)
+                .Select(x => (x.Value, Database.Movies.Where(m => m.Genres.ContainsKey(x.Key)).Count())).ToList();
+            */
 
             // throw new NotImplementedException();
         }
@@ -102,6 +116,10 @@ namespace MovieCatalog.ConsoleApp
         public IEnumerable<Movie> GetTop5MoviesWithTheMostNumberOfGenres()
         {
             // return Database.Movies.OrderByDescending(m => m.Genres.Count).Take(5).ToList();
+
+            // From "Skatole"  Ez is jó! : 
+            // return Database.Movies.OrderByDescending(m => m.Genres.Count()).Take(5);
+
             return Database.Movies.OrderByDescending(m => m.Genres.Count).Take(5);
 
             // throw new NotImplementedException();
@@ -119,8 +137,13 @@ namespace MovieCatalog.ConsoleApp
 
             //return Database.Movies.Where(m => m.ProductionCountries.Values == country)
 
+            // From "Skatole"  Ez is jó! : 
+            // return Database.Movies.Where(x => x.ProductionCountries.ContainsKey(country)).Where(x => x.Budget.HasValue).OrderByDescending(x => x.Budget).FirstOrDefault();
+
+
             // From Novák Péter
             return Database.Movies.Where(m => m.ProductionCountries.ContainsKey(country)).OrderByDescending(g => g.Budget).FirstOrDefault();
+
 
             // throw new NotImplementedException();
         }
@@ -137,12 +160,21 @@ namespace MovieCatalog.ConsoleApp
             /// return Database.Movies.OrderByDescending(m => m.Revenue - m.Budget).Take(1).Select(m => new Tuple<Movie, long>(m, 10));
             ////return Database.Movies.OrderByDescending(m => m.Revenue - m.Budget).First().Select(m => new Tuple<Movie, long>(m, 10));
 
+
+            // From "Skatole"  Ez is jó! : 
+            /*
+            var sol = Database.Movies.OrderByDescending(x => x.Revenue - x.Budget).FirstOrDefault();
+            return (sol, (long)(sol.Revenue - sol.Budget));
+            */
+
+
             // From Novák Péter
             Movie TempMovie = Database.Movies.Where(m => m.Revenue != null && m.Budget != null).OrderByDescending(m => m.Revenue - m.Budget).First();
             long TempProfit = (long) TempMovie.Revenue - (long) TempMovie.Budget;
 
             return (TempMovie, TempProfit);
-                        
+
+
             // throw new NotImplementedException();
         }
 
@@ -154,6 +186,11 @@ namespace MovieCatalog.ConsoleApp
         {
 
             // return (long)Database.Movies.OrderByDescending(m => m.Revenue - m.Budget).Take(1).Sum(m => m.Revenue - m.Budget);
+
+            // From "Skatole"  Ez NEM jó! : 
+            /*
+            return Database.Movies.OrderBy(x => x.Revenue - x.Budget).Select(x => (long)(x.Revenue - x.Budget)).First();
+            */
 
             // From Novák Péter
             Movie TempMovie = Database.Movies.Where(m => m.Revenue != null && m.Budget != null).OrderBy(m => m.Revenue - m.Budget).First();
@@ -180,13 +217,29 @@ namespace MovieCatalog.ConsoleApp
 
 
             // From Novák Péter
+            // RemoveDiacritics-hez nuget csomag kell!!
             /*
             return Database.Movies.Where(m => m.Title.RemoveDiacritics().Contains(titleContains, StringComparison.OrdinalIgnoreCase)).
                 OrderByDescending(m => m.Popularity).Skip(page * pageSize).Take(pageSize);
             */
-            // RemoveDiacritics-hez nuget csomag kell!!
 
-            throw new NotImplementedException();
+            // From Novák Péter
+            // RemoveDiacritics-hez nuget csomag kell!!
+            // Rendezés nélkül:
+            /*
+            return Database.Movies.Where(m => m.Title.RemoveDiacritics().Contains(titleContains, StringComparison.OrdinalIgnoreCase))
+                .Skip(page * pageSize).Take(pageSize);
+            */
+
+
+            // From "Skatole"  (Ez a lekérdezés nem használ plusz csomagot!) : 
+            return Database.Movies
+                .Where(m => m.Title.Contains(titleContains, StringComparison.OrdinalIgnoreCase))
+                .Skip(page * pageSize)
+                .Take(pageSize);
+            
+
+            // throw new NotImplementedException();
         }
     }
 }

@@ -49,6 +49,14 @@ namespace MovieCatalog.ConsoleApp
                 Console.WriteLine($"{result.Movie.Title} ({result.Movie.ReleaseDate?.Year.ToString() ?? "----"})\n Budget: {result.Movie.Budget!.Value:N}\n Revenue: {result.Movie.Revenue:N}\n Profit: {result.Profit:N}");
             });
 
+            // 2023.05.18. Begin
+            // Nem volt meghívva a függvény!
+            TryEvaluate("GetBiggestMovieFlopEver", q => q.GetBiggestMovieFlopEver(), result =>
+            {
+                Console.WriteLine($"A legnagyobb bukás mértéke USD-ben: {result}");
+            });
+            // 2023.05.18. End
+
             TryEvaluate("GetMoviesOrderByPopularityWithTitleMatchPaged (\"tales\", 1)", q => q.GetMoviesOrderByPopularityWithTitleMatchPaged("tales", 1), result =>
             {
                 Console.WriteLine(string.Join('\n', result.Select((e, i) => (e, i)).Select(m => $"{m.i + 1}: {m.e.Title} ({m.e.ReleaseDate?.Year.ToString() ?? "----"}) - {m.e.Popularity}")));
