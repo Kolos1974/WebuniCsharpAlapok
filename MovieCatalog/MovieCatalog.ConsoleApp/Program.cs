@@ -53,7 +53,7 @@ namespace MovieCatalog.ConsoleApp
             // Nem volt meghívva a függvény!
             TryEvaluate("GetBiggestMovieFlopEver", q => q.GetBiggestMovieFlopEver(), result =>
             {
-                Console.WriteLine($"A legnagyobb bukás mértéke USD-ben: {result}");
+                Console.WriteLine($"A legnagyobb bukás mértéke USD-ben: {result:N}");
             });
             // 2023.05.18. End
 
