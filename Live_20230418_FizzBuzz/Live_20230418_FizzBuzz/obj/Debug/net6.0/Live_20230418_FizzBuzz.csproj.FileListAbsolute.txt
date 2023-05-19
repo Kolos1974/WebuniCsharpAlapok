@@ -1,0 +1,15 @@
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\bin\Debug\net6.0\Live_20230418_FizzBuzz.exe
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\bin\Debug\net6.0\Live_20230418_FizzBuzz.deps.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\bin\Debug\net6.0\Live_20230418_FizzBuzz.runtimeconfig.json
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\bin\Debug\net6.0\Live_20230418_FizzBuzz.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\bin\Debug\net6.0\Live_20230418_FizzBuzz.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.csproj.AssemblyReference.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.AssemblyInfoInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.AssemblyInfo.cs
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\refint\Live_20230418_FizzBuzz.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.pdb
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\Live_20230418_FizzBuzz.genruntimeconfig.cache
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\Live_20230418_FizzBuzz\Live_20230418_FizzBuzz\obj\Debug\net6.0\ref\Live_20230418_FizzBuzz.dll
