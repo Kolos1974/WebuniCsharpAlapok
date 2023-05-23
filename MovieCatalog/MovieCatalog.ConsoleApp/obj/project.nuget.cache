@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "NrycFDrkEhdTSOs8P8RHKmFbQTKWZ9JFg0PCrG1sULS/dpVx+eTGn3fSg6aNnYz+USRJ1JSSKlcP1yAfNBBvEw==",
+  "dgSpecHash": "ZSbCpniaO1sZq83iL8/rErBYJ8wd4MYkUr7iVSpGxUkfUcb8sLb/TeQ+m1Zjq2XYRcJsKmalCAD75ywE+CaXBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\MovieCatalog.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\csvhelper\\26.1.0\\csvhelper.26.1.0.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\viceri.removediacritics\\1.0.0\\viceri.removediacritics.1.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MovieCatalog\\MovieCatalog.ConsoleApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

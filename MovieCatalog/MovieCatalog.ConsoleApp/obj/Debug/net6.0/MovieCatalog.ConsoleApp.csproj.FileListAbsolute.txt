@@ -40,3 +40,5 @@ C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.Con
 C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.ConsoleApp\obj\Debug\net6.0\MovieCatalog.ConsoleApp.pdb
 C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.ConsoleApp\obj\Debug\net6.0\MovieCatalog.ConsoleApp.genruntimeconfig.cache
 C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.ConsoleApp\obj\Debug\net6.0\ref\MovieCatalog.ConsoleApp.dll
+C:\Users\Kolos\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.ConsoleApp\bin\Debug\net6.0\Viceri.RemoveDiacritics.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\MovieCatalog\MovieCatalog.ConsoleApp\bin\Debug\net6.0\Viceri.RemoveDiacritics.dll
