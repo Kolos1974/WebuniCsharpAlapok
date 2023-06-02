@@ -7,7 +7,7 @@ namespace ServStat.Controllers
     public class FileStatController : ControllerBase
     {
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet]
         public JsonResult Get()
         {
             Stat s = new Stat();

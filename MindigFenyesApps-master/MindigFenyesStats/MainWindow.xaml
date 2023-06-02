@@ -1,0 +1,38 @@
+﻿<Window x:Class="MindigFenyesStats.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MindigFenyesStats"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Lekérdezés" HorizontalAlignment="Left" Margin="599,40,0,0" VerticalAlignment="Top" Height="40" Width="113" Click="Button_Click"/>
+        <ComboBox Name="ComboBox1" HorizontalAlignment="Left" Margin="35,45,0,0" VerticalAlignment="Top" Width="148" Height="30" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="Dolgozó"  />
+            <ComboBoxItem Content="Hónap" />
+            <ComboBoxItem Content="Meghibásodás" />
+        </ComboBox>
+        <ListBox Name="Listbox1"  Margin="316,45,316,262" Visibility="Hidden"/>
+        <DatePicker Name="datePicker1" HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="30" Width="158" Visibility="Hidden">
+        </DatePicker>
+        <DataGrid Name="dataGrid1" Margin="30,177,30,33" AutoGenerateColumns="False" RenderTransformOrigin="0.497,0.558">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="Id" Binding="{Binding Id}" Header="Id" Width="Auto"/>
+                <DataGridTextColumn x:Name="ZipCode" Binding="{Binding Address.ZipCode}" Header="Ir.Szám" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="StreetName" Binding="{Binding Address.StreetName}" Header="Utca" Width="Auto"/>
+                <DataGridTextColumn x:Name="HouseNumber" Binding="{Binding Address.HouseNumber}" Header="Házszám" Width="Auto"/>
+                <DataGridTextColumn x:Name="StartDate" Binding="{Binding StartDate}" Header="Kezdődátum" Width="Auto"/>
+                <DataGridTextColumn x:Name="IsFinished" Binding="{Binding IsFinished}" Header="Befejezve" Width="Auto"/>
+                <DataGridTextColumn x:Name="Worker" Binding="{Binding Worker.Name}" Header="Javítást Végezte" Width="Auto"/>
+                <DataGridTextColumn x:Name="Issue" Binding="{Binding Issue}" Header="Meghibásodás" Width="Auto"/>
+                <DataGridTextColumn x:Name="FinishDate" Binding="{Binding FinishDate}" Header="Javítás Dátuma" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Lekérdezés típusa:" HorizontalAlignment="Left" Margin="56,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Lekérdezés módosító" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top"/>
+        <Button Content="Exportálás" HorizontalAlignment="Left" Margin="600,109,0,0" VerticalAlignment="Top" Height="40" Width="112" Click="Button_Click_1"/>
+
+
+    </Grid>
+</Window>
