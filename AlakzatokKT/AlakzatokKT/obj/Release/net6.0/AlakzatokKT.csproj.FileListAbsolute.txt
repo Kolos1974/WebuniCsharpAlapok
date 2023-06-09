@@ -1,0 +1,12 @@
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\bin\Release\net6.0\AlakzatokKT.deps.json
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\bin\Release\net6.0\AlakzatokKT.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\bin\Release\net6.0\AlakzatokKT.pdb
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\AlakzatokKT.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\AlakzatokKT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\AlakzatokKT.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\AlakzatokKT.AssemblyInfo.cs
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\AlakzatokKT.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\AlakzatokKT.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\refint\AlakzatokKT.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\AlakzatokKT.pdb
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\AlakzatokKT\AlakzatokKT\obj\Release\net6.0\ref\AlakzatokKT.dll

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kolos\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\RosszProj\\ConsoleApp61\\RosszApp.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\RosszProj\\ConsoleApp61\\RosszApp.csproj",
       "projectName": "RosszApp",
-      "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\RosszProj\\ConsoleApp61\\RosszApp.csproj",
-      "packagesPath": "C:\\Users\\Kolos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\RosszProj\\ConsoleApp61\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\RosszProj\\ConsoleApp61\\RosszApp.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\RosszProj\\ConsoleApp61\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kolos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
