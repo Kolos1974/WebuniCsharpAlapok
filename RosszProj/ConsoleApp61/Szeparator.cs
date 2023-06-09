@@ -31,8 +31,17 @@
                 }
             }
 
-            Op1 = int.Parse(s1);
-            Op2 = int.Parse(s2);
+            if (s1.Length > 0)
+            {
+                Op1 = int.Parse(s1);
+
+            }
+
+            if (s2.Length > 0)
+            {
+                Op2 = int.Parse(s2);
+            }
+
 
             if (s2.Length > 0)
             {

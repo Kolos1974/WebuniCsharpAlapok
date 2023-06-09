@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp61
 {
-    class Kalkulator
+    public class Kalkulator
     {
         public int Kalkulalas(string muv)
         {
