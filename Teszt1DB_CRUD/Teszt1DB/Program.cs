@@ -21,6 +21,8 @@ internal class Program
         ad.Embers.Add(uj);
         ad.SaveChanges();
 
+        Console.WriteLine($"A kapott id: {uj.Id}");
+
         // Read
         Console.WriteLine("");
         Console.WriteLine("Lekért ember:");
@@ -45,6 +47,11 @@ internal class Program
         }
         ad3.SaveChanges();
 
+        Console.WriteLine($"Az Embers tábla rekordainak száma törlés előtt: {ad3.Embers.Count()}");
+        // Az új embert kitörlöm
+        ad3.Embers.Remove(uj);
+        ad3.SaveChanges();
+        Console.WriteLine($"Az Embers tábla rekordainak száma törlés után: {ad3.Embers.Count()}");
 
     }
 
