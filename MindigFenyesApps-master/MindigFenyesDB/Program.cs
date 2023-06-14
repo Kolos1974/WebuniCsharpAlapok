@@ -7,8 +7,8 @@ namespace MindigFenyesDB
     {
         static void Main(string[] args)
         {
-            //AddWorker("Alma Aladár");
-            //AddWorker("Banán Bála");
+            AddWorker("Alma Aladár");
+            AddWorker("Banán Bála");
             //AddWorker("Citrom Cecil");
             //AddWorker("Dió Dániel");
             //AddWorker("Eper Elemér");

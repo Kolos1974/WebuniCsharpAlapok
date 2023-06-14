@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\bin\Debug\net6.0\Live20230509_1.exe
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\bin\Debug\net6.0\Live20230509_1.deps.json
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\bin\Debug\net6.0\Live20230509_1.runtimeconfig.json
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\bin\Debug\net6.0\Live20230509_1.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\bin\Debug\net6.0\Live20230509_1.pdb
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.AssemblyInfo.cs
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\refint\Live20230509_1.dll
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.pdb
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\Live20230509_1.genruntimeconfig.cache
+C:\Users\HP\Documents\Webuni\WebuniCsharpAlapok\Live20230509_1\Live20230509_1\obj\Debug\net6.0\ref\Live20230509_1.dll
