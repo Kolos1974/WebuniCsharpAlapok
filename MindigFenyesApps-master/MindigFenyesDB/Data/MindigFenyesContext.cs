@@ -21,7 +21,9 @@ namespace MindigFenyesDB.Data
 		public DbSet<Worker> Workers { get; set; }
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
 		{
-			optionsBuilder.UseSqlServer("Server = localhost; Database=master; Initial Catalog = MindigFenyesDB; Trusted_Connection=True;");
-		}
+            // optionsBuilder.UseSqlServer("Server = localhost; Database=master; Initial Catalog = MindigFenyesDB; Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MindigFenyesApps-master\\MindigFenyesDB.mdf;Integrated Security=True;Connect Timeout=30");
+
+        }
 	}
 }
