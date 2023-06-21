@@ -24,7 +24,11 @@ namespace MindigFenyesDB
                 using (var context = new MindigFenyesContext())
                 {
                     var worker = new Worker { Name = name };
-                    context.Add(worker);
+
+                    // 2023.06.21.
+                    context.Workers.Add(worker);
+
+                    // context.Add(worker);
                     context.SaveChanges();
                 }
             }
