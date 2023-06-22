@@ -12,12 +12,15 @@ namespace MindigFenyesDB
             //AddWorker("Citrom Cecil");
             //AddWorker("Dió Dániel");
             //AddWorker("Eper Elemér");
+
+            /* 2023.06.22.
             using (var context = new MindigFenyesContext())
             {
                 var ticketToDel = context.Addresses.Find(1002);
                 context.Addresses.Remove(ticketToDel);
                 context.SaveChanges();
             }
+            */
 
             void AddWorker(string name)
             {
@@ -26,9 +29,9 @@ namespace MindigFenyesDB
                     var worker = new Worker { Name = name };
 
                     // 2023.06.21.
-                    context.Workers.Add(worker);
-
-                    // context.Add(worker);
+                    // context.Workers.Add(worker);
+                    
+                    context.Add(worker);
                     context.SaveChanges();
                 }
             }
