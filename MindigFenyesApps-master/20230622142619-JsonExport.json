@@ -1,0 +1,1 @@
+[{"Id":1,"AddressId":3,"Address":{"Id":3,"ZipCode":1111,"StreetName":"Irinyi","HouseNumber":47},"StartDate":"2023-06-22T10:50:15.9987905","IsFinished":true,"WorkerId":1,"Worker":{"Id":1,"Name":"Alma Aladár"},"FinishDate":"2023-06-22T10:51:38.0099957","Issue":3}]
