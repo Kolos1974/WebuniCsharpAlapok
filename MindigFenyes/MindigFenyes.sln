@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindigFenyes.Console1", "MindigFenyes.Console1\MindigFenyes.Console1.csproj", "{148DA9DA-A8C0-4E2F-A25A-920B9AD0A2BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindigFenyes.Console1", "MindigFenyes.Console1\MindigFenyes.Console1.csproj", "{148DA9DA-A8C0-4E2F-A25A-920B9AD0A2BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindigFenyes.Console2", "MindigFenyes.Console2\MindigFenyes.Console2.csproj", "{BF6FF1B7-20A0-4848-9F1E-BCFEF59DDFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindigFenyes.Console2", "MindigFenyes.Console2\MindigFenyes.Console2.csproj", "{BF6FF1B7-20A0-4848-9F1E-BCFEF59DDFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindigFenyes.DB", "MindigFenyes.DB\MindigFenyes.DB.csproj", "{C4F41F1C-0A73-4E44-8A28-AE7DEFA4262A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindigFenyes.DB", "MindigFenyes.DB\MindigFenyes.DB.csproj", "{C4F41F1C-0A73-4E44-8A28-AE7DEFA4262A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindigFenyes.Web", "MindigFenyes.Web\MindigFenyes.Web.csproj", "{3BA9D117-D352-4F86-BDAD-10E80CB814BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C4F41F1C-0A73-4E44-8A28-AE7DEFA4262A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F41F1C-0A73-4E44-8A28-AE7DEFA4262A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F41F1C-0A73-4E44-8A28-AE7DEFA4262A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA9D117-D352-4F86-BDAD-10E80CB814BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA9D117-D352-4F86-BDAD-10E80CB814BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA9D117-D352-4F86-BDAD-10E80CB814BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA9D117-D352-4F86-BDAD-10E80CB814BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
