@@ -22,7 +22,7 @@ namespace MindigFenyesDB.Data
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
 		{
             // optionsBuilder.UseSqlServer("Server = localhost; Database=master; Initial Catalog = MindigFenyesDB; Trusted_Connection=True;");
-            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\MindigFenyesApps-master\\MindigFenyesDB.mdf;Integrated Security=True;Connect Timeout=30");
+            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\MindigFenyesApps-master\\MindigFenyesDB.mdf;Integrated Security=True;Connect Timeout=30");
 
         }
 	}

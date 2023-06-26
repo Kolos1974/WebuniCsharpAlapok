@@ -20,6 +20,12 @@ namespace MindigFenyes.Web.Controllers
         public IActionResult Trouble()
         {
             return View();
+            /*
+            TroubleViewModel tvm = new TroubleViewModel();
+            tvm.PostalCode = Request.Form["psc"];
+            // em.RogzitesDatuma = DateTime.Now;
+            return View(tvm);
+            */
         }
 
 
