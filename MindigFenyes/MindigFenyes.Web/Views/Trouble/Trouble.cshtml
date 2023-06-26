@@ -1,0 +1,26 @@
+﻿@model TroubleViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="mb-3">
+    <h1 align="center">Hibabejelentés</h1>
+</div>
+
+<form method="Post" action="/Trouble/Submit">
+    <div class="mb-3">
+        <label for="" class="form-label">Irányítószám</label>
+        <input type="number" class="form-control" size="10" asp-for="PostalCode">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Utca</label>
+        <input type="text" class="form-control" size="50" asp-for="Street">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Házszám</label>
+        <input type="number" class="form-control" size="10" asp-for="Number">
+    </div>
+    <button type="submit" class="btn btn-primary">Bejelentés</button>
+</form>
