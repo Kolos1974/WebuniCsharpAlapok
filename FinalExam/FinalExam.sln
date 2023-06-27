@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam.DB", "FinalExam.DB\FinalExam.DB.csproj", "{B0352D52-04A9-42AA-995E-DC1F7B4B7C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam.Console1", "FinalExam.Console1\FinalExam.Console1.csproj", "{F191489E-A216-419A-A7EA-626AF2010DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam.Console2", "FinalExam.Console2\FinalExam.Console2.csproj", "{03CE3E3D-F73D-4E06-9894-0800A1F513B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam.Web", "FinalExam.Web\FinalExam.Web.csproj", "{2AF1D9E7-84A4-41F6-80F0-3BD0E41D38E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam.Test", "FinalExam.Test\FinalExam.Test.csproj", "{6C18B21C-5C3A-4677-9904-EF1C08A55516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam.UI", "FinalExam.UI\FinalExam.UI.csproj", "{B9F01B8A-44C1-4E79-85B5-4F0A39F75819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam.DLL", "FinalExam.DLL\FinalExam.DLL.csproj", "{6821CC71-FCA2-40D0-A477-89D485035468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0352D52-04A9-42AA-995E-DC1F7B4B7C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0352D52-04A9-42AA-995E-DC1F7B4B7C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0352D52-04A9-42AA-995E-DC1F7B4B7C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0352D52-04A9-42AA-995E-DC1F7B4B7C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F191489E-A216-419A-A7EA-626AF2010DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F191489E-A216-419A-A7EA-626AF2010DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F191489E-A216-419A-A7EA-626AF2010DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F191489E-A216-419A-A7EA-626AF2010DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CE3E3D-F73D-4E06-9894-0800A1F513B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CE3E3D-F73D-4E06-9894-0800A1F513B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CE3E3D-F73D-4E06-9894-0800A1F513B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CE3E3D-F73D-4E06-9894-0800A1F513B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF1D9E7-84A4-41F6-80F0-3BD0E41D38E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF1D9E7-84A4-41F6-80F0-3BD0E41D38E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF1D9E7-84A4-41F6-80F0-3BD0E41D38E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF1D9E7-84A4-41F6-80F0-3BD0E41D38E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C18B21C-5C3A-4677-9904-EF1C08A55516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C18B21C-5C3A-4677-9904-EF1C08A55516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C18B21C-5C3A-4677-9904-EF1C08A55516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C18B21C-5C3A-4677-9904-EF1C08A55516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F01B8A-44C1-4E79-85B5-4F0A39F75819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F01B8A-44C1-4E79-85B5-4F0A39F75819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F01B8A-44C1-4E79-85B5-4F0A39F75819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F01B8A-44C1-4E79-85B5-4F0A39F75819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6821CC71-FCA2-40D0-A477-89D485035468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6821CC71-FCA2-40D0-A477-89D485035468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6821CC71-FCA2-40D0-A477-89D485035468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6821CC71-FCA2-40D0-A477-89D485035468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BE74BCC-5F4A-4A86-BCEB-FF4222566388}
+	EndGlobalSection
+EndGlobal
