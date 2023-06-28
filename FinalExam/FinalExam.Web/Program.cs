@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<FinalExamDataDB>(options => options.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExamData.mdf;Integrated Security=True;Connect Timeout=30"));
+builder.Services.AddDbContext<FinalExamDataDB>(options => options.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExamData.mdf;Integrated Security=True;Connect Timeout=30"));
 
 
 var app = builder.Build();

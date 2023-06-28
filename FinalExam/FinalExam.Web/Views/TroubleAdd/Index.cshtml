@@ -9,20 +9,20 @@
 </div>
 
 <form action="TroubleAdd/troubleadd" method="post">
-    <div>
+    <div class="col-sm-1">
         <label for="" class="form-label">Irányítószám</label>
-        <input type="number" name="postalcode" />
+        <input type="number" class="form-control" name="postalcode" required min="1000" max="9999" size="4" />
     </div>
-    <div>
+    <div class="col-sm-8">
         <label for="" class="form-label">Utca</label>
-        <input type="text" name="street" />
+        <input type="text" class="form-control" name="street" required minlength="1" />
     </div>
-    <div>
+    <div class="col-sm-2">
         <label for="" class="form-label">Házszám</label>
-        <input type="text" name="number" />
+        <input type="text" class="form-control" name="number" required minlength="1" />
     </div>
-
-    <div>
+    <br/>
+    <div class="mb-3">
         <button type="submit" class="btn btn-primary">Bejelentés</button>
     </div>
 </form>

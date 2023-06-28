@@ -3285,19 +3285,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kolos\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.UI\\FinalExam.UI.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.UI\\FinalExam.UI.csproj",
       "projectName": "FinalExam.UI",
-      "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.UI\\FinalExam.UI.csproj",
-      "packagesPath": "C:\\Users\\Kolos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.UI\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.UI\\FinalExam.UI.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kolos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3311,8 +3311,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj": {
-              "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj"
+            "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj": {
+              "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj"
             }
           }
         }
@@ -3351,7 +3351,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

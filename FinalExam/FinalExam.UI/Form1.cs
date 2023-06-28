@@ -10,7 +10,6 @@ namespace FinalExam.UI
 
     public partial class Form1 : Form
     {
-        // private readonly FinalExamDataDB fedbcontext;
         private readonly FinalExamDataDB _context = new();
 
         List<Worker> wlist = new();
@@ -34,48 +33,21 @@ namespace FinalExam.UI
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //label2.Text = comboBox1.SelectedIndex.ToString();
-            /*
-            label3.Text = wlist[comboBox1.SelectedIndex].Name;
-            label4.Text = wlist[comboBox1.SelectedIndex].Id.ToString();
-            */
+           
 
 
         }
 
         private void radioButton1_Click(object sender, EventArgs e)
         {
-            //
-            // string a1 = "";
-
-            /*
-            foreach (var Worker in _context.Workers)
-            {
-                comboBox1.Items.Add(Worker.Name);
-            }
-            */
-
-            //Listbox1.ItemsSource = _context.Workers.Select(w => w.Name).ToList();
-            // comboBox1.DataSource = _context.Workers;
-
-            //List<Worker> res;
-
-            // res = _context.Workers.Select(w => w.Name).ToList();
-            //res = _context.Workers.ToList;
-
             comboBox1.Items.Clear();
 
-
-            // FinalExamDataDB fe = new();
             foreach (var w in fe.Workers)
             {
                 wlist.Add(w);
                 comboBox1.Items.Add(w.Name);
             }
             comboBox1.SelectedIndex = 0;
-
-            // comboBox1.Items.Add(_context.Workers.Select(w => w.Name).ToList());
-
         }
 
         private void radioButton2_Click(object sender, EventArgs e)
@@ -101,8 +73,6 @@ namespace FinalExam.UI
         {
             comboBox1.Items.Clear();
 
-
-            // FinalExamDataDB fe = new();
             foreach (var rt in fe.RepairTypes)
             {
                 rtlist.Add(rt);
@@ -181,11 +151,8 @@ namespace FinalExam.UI
                     // XmlSerializer ser = new XmlSerializer(Trouble.GetType());
                     ser.Serialize(sw, trs);
                 }
-
                 MessageBox.Show("A file elkészült!");
             }
-
-
         }
 
         private void button3_Click(object sender, EventArgs e)

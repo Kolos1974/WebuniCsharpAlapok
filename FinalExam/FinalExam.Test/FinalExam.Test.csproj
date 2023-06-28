@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinalExam.DLL\FinalExam.DLL.csproj" />
+  </ItemGroup>
+
 </Project>
