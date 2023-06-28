@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\Kolos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.Console2\\FinalExam.Console2.csproj",
+      "projectUniqueName": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.Console2\\FinalExam.Console2.csproj",
       "projectName": "FinalExam.Console2",
-      "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.Console2\\FinalExam.Console2.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.Console2\\obj\\",
+      "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.Console2\\FinalExam.Console2.csproj",
+      "packagesPath": "C:\\Users\\Kolos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.Console2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kolos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

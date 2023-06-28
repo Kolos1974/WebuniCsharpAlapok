@@ -15,16 +15,29 @@ public partial class FinalExamDataDB : DbContext
     {
     }
 
+    public virtual DbSet<RepairType> RepairTypes { get; set; }
+
     public virtual DbSet<Trouble> Troubles { get; set; }
 
     public virtual DbSet<Worker> Workers { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExamData.mdf;Integrated Security=True;Connect Timeout=30");
+        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExamData.mdf;Integrated Security=True;Connect Timeout=30");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<RepairType>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__RepairTy__3214EC0760B9C255");
+
+            entity.ToTable("RepairType");
+
+            entity.Property(e => e.Description)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+        });
+
         modelBuilder.Entity<Trouble>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Trouble__3214EC07B4700397");

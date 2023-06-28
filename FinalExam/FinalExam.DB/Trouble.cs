@@ -19,5 +19,5 @@ public partial class Trouble
 
     public DateTime? RepairDate { get; set; }
 
-    public int? RepairType { get; set; }
+    public int? RepairTypeId { get; set; }
 }

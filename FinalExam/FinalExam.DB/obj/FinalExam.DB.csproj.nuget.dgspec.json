@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj": {}
+    "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj": {
+    "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj",
+        "projectUniqueName": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj",
         "projectName": "FinalExam.DB",
-        "projectPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\obj\\",
+        "projectPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\FinalExam.DB.csproj",
+        "packagesPath": "C:\\Users\\Kolos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kolos\\Documents\\Webuni\\WebuniCsharpAlapok\\FinalExam\\FinalExam.DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kolos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
