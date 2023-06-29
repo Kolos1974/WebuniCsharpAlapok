@@ -1,56 +1,55 @@
-﻿using System.Net.Sockets;
+﻿using FinalExam.DB;
+using FinalExam.DLL;
+using System.Net.Sockets;
 
 internal class Program
 {
     static void Main(string[] args)
     {
-        /*
-        var context = new MindigFenyesContext();
+        
+        var context = new FinalExamDataDB();
+        FinalExamDataDbQuerry fedq = new FinalExamDataDbQuerry();
 
         Console.WriteLine("Kérlek add meg az azonosítószámod!");
         int workerId;
         List<Worker> workers = context.Workers.ToList();
         while (!int.TryParse(Console.ReadLine(), out workerId) || workers.SingleOrDefault(m => m.Id == workerId) is null)
         {
-            Console.WriteLine("Rossz azonosítót adtál meg, kérlek próbáld újra!");
+            Console.WriteLine("Rossz azonosítót adtál meg, próbálja újra!");
         }
         var worker = context.Workers.SingleOrDefault(m => m.Id == workerId);
-        Console.WriteLine($"Kedves {worker!.Name}, add meg az általad elvégzett javítás sorszámát!");
-        int ticketId;
+        Console.WriteLine($"Tisztelt {worker!.Name}, adja meg az elvégzett javítás sorszámát!");
+        int troubleId;
         while (true)
         {
-            List<Ticket> unfinishedTickets = context.Tickets.Where(t => t.IsFinished == false).ToList();
-            while (!int.TryParse(Console.ReadLine(), out ticketId) || unfinishedTickets.SingleOrDefault(m => m.Id == ticketId) is null && ticketId != 0)
+            List<Trouble> openTroubles = context.Troubles.Where(t => t.RepairTypeId == null).ToList();
+            while (!int.TryParse(Console.ReadLine(), out troubleId) || openTroubles.SingleOrDefault(m => m.Id == troubleId) is null && troubleId != 0)
             {
                 Console.WriteLine("Rossz sorszámot adtál meg, kérlek próbáld újra!");
             }
-            if (ticketId == 0) //kilépés
+            if (troubleId == 0) //kilépés
             {
                 break;
             }
-            Console.WriteLine("kérlek add meg a meghibásodás okát:");
-            foreach (var value in Enum.GetValues(typeof(Issue)))
+            Console.WriteLine("Aja meg a meghibásodás okát:");
+            foreach (var rt in fedq.AllOfRepairType())
             {
-                Console.WriteLine($"[{(int)value}] --- {value}");
+                Console.WriteLine($"{rt.Id}. {rt.Description}");
             }
 
-            int issueId;
+            int repairId;
 
-            while (!int.TryParse(Console.ReadLine(), out issueId) || issueId < 0 || issueId > 3)
+            while (!int.TryParse(Console.ReadLine(), out repairId) || repairId < 0 || repairId > 3)
             {
-                Console.WriteLine("Nem létező okot adtál meg!");
+                Console.WriteLine("Ez a javítási azonosító nem léztezik!");
             }
-            var ticketToClose = unfinishedTickets.Find(t => t.Id == ticketId);
-            ticketToClose!.IsFinished = true;
-            ticketToClose!.FinishDate = DateTime.Now;
-            ticketToClose!.WorkerId = workerId;
-            ticketToClose!.Issue = (Issue)issueId;
+            var troubleToRepaired = openTroubles.Find(t => t.Id == troubleId);
+            troubleToRepaired!.WorkerId = workerId;
+            troubleToRepaired!.RepairDate = DateTime.Now;
+            troubleToRepaired!.RepairTypeId = repairId;
             context.SaveChanges();
-            Console.WriteLine($"A {ticketId} sorszámú hibajegy lezárásra került!");
-            Console.WriteLine("további hibajegy lezárásához add meg a sorszámát, vagy kilépés 0 megadásával:");
+            Console.WriteLine($"A {troubleId} sorszámú hibajegy lezárásra került!");
+            Console.WriteLine("További hiba lezárásához adja meg a sorszámát, vagy kilépés 0 megadásával:");
         }
-
-        */
-
     }
 }

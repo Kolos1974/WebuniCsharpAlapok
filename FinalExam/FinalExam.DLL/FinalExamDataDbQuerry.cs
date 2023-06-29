@@ -58,7 +58,7 @@ namespace FinalExam.DLL
             {
                 if (!(tr.RepairDate.HasValue))
                 {
-                    if (tr.PostalCode >= dist * 10 && tr.PostalCode < (dist + 10) * 10) 
+                    if (tr.PostalCode >= dist * 10 && tr.PostalCode <= (dist * 10) + 9) 
                     {
                         results.Add(tr);
                     }
